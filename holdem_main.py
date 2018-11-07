@@ -63,14 +63,6 @@ class Hand_Value:
             value_score = 20000 + self.pair_value
             return( (value_score, "You have got " + str(self.pair_value) + " Pairs") )
 
-
-
-
-
-
-
-
-
 class Result:
     def __init__(self,value, highest_card):
         self.value = value
